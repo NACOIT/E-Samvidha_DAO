@@ -1,0 +1,26 @@
+package gov.naco.soch.entity;
+
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value = "org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor")
+@StaticMetamodel(ContractStatusTracking.class)
+public abstract class ContractStatusTracking_ extends gov.naco.soch.entity.Auditable_ {
+
+	public static volatile SingularAttribute<ContractStatusTracking, UserMaster> userMaster;
+	public static volatile SingularAttribute<ContractStatusTracking, ContractStatusMaster> contractStatusMaster;
+	public static volatile SingularAttribute<ContractStatusTracking, Boolean> isDelete;
+	public static volatile SingularAttribute<ContractStatusTracking, Contract> contract;
+	public static volatile SingularAttribute<ContractStatusTracking, Integer> id;
+	public static volatile SingularAttribute<ContractStatusTracking, Boolean> isActive;
+
+	public static final String USER_MASTER = "userMaster";
+	public static final String CONTRACT_STATUS_MASTER = "contractStatusMaster";
+	public static final String IS_DELETE = "isDelete";
+	public static final String CONTRACT = "contract";
+	public static final String ID = "id";
+	public static final String IS_ACTIVE = "isActive";
+
+}
+
